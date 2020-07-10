@@ -1,4 +1,4 @@
-# :red_circle: 404 Not Found
+# 404 Not Found
 
 
 <!--
