@@ -10,7 +10,7 @@ def get_gif():
     base = dirname(realpath(__file__)) + '/gif/'
     return choice([join(base, f) for f in listdir(base) if isfile(join(base, f))])
 
-@app.route('/gif')
+@app.route('/image.gif')
 def gif():
     return send_file(get_gif(), mimetype='image/gif')
 
