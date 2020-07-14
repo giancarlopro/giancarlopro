@@ -11,7 +11,7 @@ def get_gif():
 
 @app.route('/gif')
 def gif():
-    return send_file(get_gif())
+    return send_file(get_gif(), mimetype='image/gif')
 
 if __name__ == '__main__':
     app.run()
