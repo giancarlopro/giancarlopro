@@ -18,6 +18,7 @@ def gif():
 def add_header(response):
     response.cache_control.max_age = 0
     response.cache_control.no_cache = True
+    response.cache_control.private = True
     return response
 
 if __name__ == '__main__':
